@@ -1,9 +1,9 @@
 name: Temporary Emlakjet INP Probe
 
 on:
-  push:
+  pull_request:
     branches:
-      - chatgpt/inp-probe-20260818
+      - master
   workflow_dispatch:
 
 permissions:
